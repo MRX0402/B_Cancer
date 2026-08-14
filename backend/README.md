@@ -59,7 +59,7 @@ Barcha `/api/*` endpointlar (login dan tashqari) `Authorization: Bearer <token>`
 
 ## MRI AI bashorat — demo va haqiqiy rejim
 
-`POST /api/ml/predict` istalgan formatdagi (DICOM/JPEG/PNG/NIfTI/.mat) MRI faylini qabul qiladi, uni ichkarida `.mat` (Cheng brain-tumor dataset `cjdata` formati) ga o'giradi va ensemble model orqali (EfficientNet-B3 + ResNet-50 + DenseNet-121, `MRX8683/B_cancer` HuggingFace reposidan) tahlil qiladi.
+`POST /api/ml/predict` istalgan formatdagi (DICOM/JPEG/PNG/NIfTI/.mat) MRI faylini qabul qiladi, uni ichkarida `.mat` (Cheng brain-tumor dataset `cjdata` formati) ga o'giradi va ensemble model orqali (EfficientNet-B3 + ResNet-50 + DenseNet-121 HuggingFace reposidan) tahlil qiladi.
 
 **Ikki rejim mavjud:**
 
