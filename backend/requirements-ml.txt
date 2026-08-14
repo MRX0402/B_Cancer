@@ -1,0 +1,15 @@
+# Haqiqiy ML bashorat rejimi uchun ixtiyoriy og'ir kutubxonalar.
+# O'rnatilmasa ham backend ishlayveradi — /api/ml/predict "demo_mode": true bilan javob qaytaradi.
+#
+# O'rnatish:  pip install -r requirements-ml.txt
+# Keyin:      python scripts/download_model.py   (vazn faylini yuklab oladi)
+
+torch==2.3.1
+torchvision==0.18.1
+opencv-python-headless==4.10.0.84
+scipy==1.13.1
+h5py==3.11.0
+pydicom==2.4.4
+nibabel==5.2.1
+huggingface_hub==0.24.6
+numpy>=1.26,<2.0
